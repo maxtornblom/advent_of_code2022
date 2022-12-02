@@ -1,14 +1,14 @@
 file = open("day1/input.txt", "r")
 
-maxi = 0
-current = 0
+max_cal = 0
+current_cal = 0
 for x in file.readlines():
     if x != "\n":
-        current += int(x)
+        current_cal += int(x)
     else:
-        if current > maxi:
-            maxi = current
+        if current_cal > max_cal:
+            max_cal = current_cal
 
-        current = 0
+        current_cal = 0
 
-print(maxi)
+print(max_cal)
