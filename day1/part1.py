@@ -5,7 +5,6 @@ current = 0
 for x in file.readlines():
     if x != "\n":
         current += int(x)
-
     else:
         if current > maxi:
             maxi = current
