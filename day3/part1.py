@@ -1,7 +1,5 @@
 file = open("day3/input.txt", "r")
 
-input_array = []
-total = 0
 alphabet = {
     "a": 1,
     "b": 2,
@@ -56,6 +54,9 @@ alphabet = {
     "Y": 51,
     "Z": 52,
 }
+
+input_array = []
+total = 0
 
 for x in file.readlines():
     input_array.append(x)
