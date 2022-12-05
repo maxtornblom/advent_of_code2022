@@ -75,7 +75,6 @@ for n in range(0, len(input_array), 3):
     for e in one:
         if e in two:
             if e in three:
-                print(e)
                 total += alphabet[e]
                 break
 
