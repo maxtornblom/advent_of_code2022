@@ -2,7 +2,7 @@ file = open("day5/input.txt", "r")
 
 input_array = []
 
-for x in file.readlines():
+for each in file.readlines():
     input_array.append(x)
 
 input_array = list(map(lambda x: x.replace("\n", ""), input_array))
