@@ -2,8 +2,8 @@ file = open("day5/input.txt", "r")
 
 input_array = []
 
-for each in file.readlines():
-    input_array.append(x)
+for line in file.readlines():
+    input_array.append(line)
 
 input_array = list(map(lambda x: x.replace("\n", ""), input_array))
 
